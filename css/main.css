@@ -1,0 +1,92 @@
+*{
+	padding:0;
+	margin:0;
+}
+html,body {background-color: #cccccc;margin:0;padding:0;overflow:hidden!important;}
+#infopopupclosebtn
+{
+	position: absolute;right: 5%;height: 2.8%;top: 4%;cursor: pointer;
+	
+}
+#logo
+{
+	position:fixed;
+	color:white;
+	font-size: 12pt;
+	margin-left:21px;
+	bottom: 17px;
+}
+#info
+{
+	position:fixed;
+	color:white;
+	font-size:15px;
+	right: 21px;
+	bottom: 19px;
+	width: 25px;
+	height: 25px;
+	cursor:pointer;
+	z-index:99999;
+}
+#info>img {
+    width: 100%;
+    height: 100%;
+}
+ 
+#infopopup
+{
+	position:fixed;
+	color:white;
+	font-size:15px;
+	right: 2%;
+	bottom: 30px;
+	display:none;
+	z-index:9999;
+}
+
+
+/* custom cursor css */
+.custom1 {
+    cursor: auto;
+    cursor: url(../assets/images/eraser.cur) , auto !important;
+}
+.custom2 {
+    cursor: auto;
+    cursor: url(../assets/images/draw_tool.cur), auto !important;
+}
+
+
+/* custom cursor css end */
+
+
+
+
+
+
+.actContainer {
+    overflow: hidden;
+    position: relative;
+    height: 617px;
+    /* top: -1220px; */
+    /* z-index: 2; */
+    
+}
+
+
+  
+  #infopopup #infopopupimg {
+    width: 79%;
+    position: relative;
+    left: 15%;
+    top: -10px;
+}
+#infopopupclosebtn {
+    position: absolute;
+    right: 8%;
+    height: 2.8%;
+    top: 1%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+ 
